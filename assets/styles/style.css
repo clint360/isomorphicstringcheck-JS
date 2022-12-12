@@ -39,6 +39,8 @@ text-align: center;
 
 #inputs {
   margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 input {
@@ -56,6 +58,7 @@ input {
   margin: auto;
   border-radius: 5px;
   font-size: 160%;
-  color: white;
+  color: rgb(48, 238, 0);
   display: none;
+  font-weight: 600;
 }
