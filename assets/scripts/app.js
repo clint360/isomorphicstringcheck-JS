@@ -5,8 +5,8 @@ let displayer = document.querySelector('.t-f');
  
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-let s = String(e.target.st1.value).toUpperCase;
-let t = String(e.target.st2.value).toUpperCase;
+let s = String(e.target.st1.value).toUpperCase();
+let t = String(e.target.st2.value).toUpperCase();
 console.log(s.length + " " + t.length)
 if (s.length !== t.length) {
     displayer.textContent = 'Please input strings of the same length';
@@ -16,7 +16,6 @@ if (s.length !== t.length) {
      const mapb = new Map();
    
      for (let i = 0; i < s.length; i++) {
-        alert('hey')
        if (mapa.has(s[i])) {
          if (mapa.get(s[i]) !== t[i]) {
            displayer.textContent = 'False';
