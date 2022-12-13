@@ -53,12 +53,18 @@ input {
 .t-f {
   height: 200px;
   background: black;
-  width: 40%;
-  min-width: 50vw;
+  width: 90%;
+  min-width: 400px;
   margin: auto;
   border-radius: 5px;
   font-size: 160%;
   color: rgb(48, 238, 0);
   display: none;
   font-weight: 600;
+}
+
+.t-f.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
